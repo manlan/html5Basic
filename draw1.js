@@ -35,12 +35,12 @@ function drawText() {
         var content = canvas.getContext("2d");
 
         content.fillStyle = "rgb(200, 0, 0)";
-        content.fillText("hello world", 250, 100);
+        content.fillText("hello world", 400, 100);
 
         var img = new Image();
         img.src = "src/img/Desert.jpg";
 //        img.onload = function() {
-            content.drawImage(img, 100, 10, 100, 100 );
+            content.drawImage(img, 100, 10 );
 //        }
 
      }
